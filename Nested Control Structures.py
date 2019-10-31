@@ -11,8 +11,6 @@ for i in range(3):
     print("Outer For Loop: " + str(i))
     for l in range(2):
         print("     Inner For Loop: " + str(l))
-
-
 print("\n**********\n")
 
 
@@ -22,8 +20,12 @@ Date:10.23.19
 Program: Categories
 
 This program will ask users of an interest to them
-then ask for two items related to that interest  
+then ask for two items related to
+that interest  
 '''
-
-
-
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1 
