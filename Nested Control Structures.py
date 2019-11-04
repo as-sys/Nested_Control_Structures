@@ -35,3 +35,20 @@ for i in range(num_people):
         sum = sum + score
     average = float(sum) / test_per_person
     print("     Average for " + name + ": " + str(round(average, 2)))
+
+'''
+Programmer: Andrew Gowan
+Date:10.23.19
+Program: Categories
+
+This program will ask users of an interest to them
+then ask for two items related to
+that interest  
+'''
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1 
+
